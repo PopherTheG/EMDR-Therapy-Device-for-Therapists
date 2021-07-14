@@ -1,0 +1,30 @@
+{
+    "env": {
+        "MESSAGE":" MAC AND LINUX USERS!!!- change path from c:/... to ~/esp/... or as approirate for your enviroment",
+        "IDF_TOOLS": "C:/esp/tools/.espressif/tools",
+        "IDF_PATH": "C:/esp/esp-idf"
+    },
+    "configurations": [
+        {
+            "name": "esp32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${IDF_PATH}",
+                    "${IDF_TOOLS}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/build/config",
+                "${workspaceFolder}/build/bootloader/config"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
